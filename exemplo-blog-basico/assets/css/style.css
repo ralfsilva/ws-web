@@ -28,7 +28,7 @@ img {
 }
 
 .cabecalho {
-    height: 100ps;
+    height: 100px;
 }
 
 .logo-cabecalho {
@@ -76,10 +76,43 @@ img {
     overflow: hidden;
 }
 
-.artigos {
-    float: left;
+.artigos, .artigos::before {
+    width: 70%;
 }
 
-.artigos, .artigos:before {
-    width: 70%;
+.artigos::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    z-index: -1;
+    content: '';
+}
+
+.sidebar {
+    float: right;
+}
+
+.sidebar, .sidebar::before {
+    width: 30%;
+}
+
+.sidebar {
+    
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: #f1f1f1;
+}
+
+.espacamento {
+    padding: 20px;
+}
+
+.rodape {
+    padding: 20px;
+    text-align: center;
 }
