@@ -1,0 +1,85 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+body {
+    background: #ccc url(https://www.cssauthor.com/wp-content/uploads/2013/07/Blurred-Background_2.jpg) center top no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+a, a img {
+    text-decoration: none;
+    border: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.principal {
+    width: 960px;
+    color: #344;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+.cabecalho {
+    height: 100ps;
+}
+
+.logo-cabecalho {
+    float: left;
+}
+
+.logo-cabecalho a{
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: none;
+    color: #000;
+    display: block;
+    padding: (20px 0 0 0);
+}
+
+.pesquisa {
+    float: right;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.menu {
+    background: #125103;
+}
+
+.menu ul li, 
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    color: #fff;
+    padding: 13px 20px;
+}
+
+.corpo {
+    position: relative;
+    overflow: hidden;
+}
+
+.artigos {
+    float: left;
+}
+
+.artigos, .artigos:before {
+    width: 70%;
+}
